@@ -14,7 +14,7 @@ public class MainProgram {
         hashMap.put("Passport", "R5182388");
 
         for (Entry<String, String> entry : hashMap.entrySet()) {
-            System.out.println(entry);
+            System.out.println(entry.getKey()+ " : " +entry.getValue());
         }
 
         for (String key : hashMap.keySet()) {
